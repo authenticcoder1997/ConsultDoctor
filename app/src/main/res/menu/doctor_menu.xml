@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"/>
+    <item
+        android:id="@+id/menu_my_profile"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/menu_lab_report"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_attach_file_black_24dp"/>
+
+</menu>

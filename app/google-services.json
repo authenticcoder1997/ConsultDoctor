@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "51838424899",
+    "firebase_url": "https://consultdoctor2.firebaseio.com",
+    "project_id": "consultdoctor2",
+    "storage_bucket": "consultdoctor2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51838424899:android:7d9b2650311af2ef",
+        "android_client_info": {
+          "package_name": "com.abhishek360.dev.hellodoctor"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5XPeg6skeYG47RwzsnOVnYDN54vcJees"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51838424899-7st655u68pet5rk1ojqnv3tsc6c8bbds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

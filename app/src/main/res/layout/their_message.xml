@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:orientation="vertical"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <View
+            android:id="@+id/chat_avatar"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle"
+            android:layout_width="25dp"
+            android:layout_height="25dp" />
+
+        <TextView
+            android:id="@+id/chat_name"
+            android:layout_marginLeft="10dp"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4dp"
+            android:text="Rose"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_their_message"
+        android:layout_marginStart="20dp"
+
+        android:background="@drawable/their_message"
+        android:padding="10dp"
+        android:elevation="2dp"
+        android:textSize="18sp"
+
+        android:text="How are you doing?"
+        />
+
+    <TextView
+        android:id="@+id/chat_my_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:layout_gravity="end"
+        android:background="@drawable/my_message"
+        android:elevation="2dp"
+        android:padding="10dp"
+        android:text="Placeholder message"
+        android:textColor="#F0EEEF"
+        android:textSize="18sp" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"/>
+    <item
+        android:id="@+id/menu_my_profile"
+        android:title="My Profile"/>
+    <item
+        android:id="@+id/menu_lab_report"
+        android:title="Lab Reports"/>
+
+</menu>

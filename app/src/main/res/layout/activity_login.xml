@@ -1,0 +1,175 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    >
+
+
+
+
+            <EditText
+                android:id="@+id/s_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:hint="Full Name"
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:id="@+id/s_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/reg_details_progressbar"/>
+
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/s_radio_group"
+                android:visibility="gone"
+
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/m"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:onClick="setGender"
+                    android:text="@string/radio_male" />
+
+                <RadioButton
+                    android:id="@+id/f"
+                    android:layout_width="0dp"
+
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="setGender"
+                    android:text="@string/radio_female" />
+
+            </RadioGroup>
+
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+
+
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="5dp" />
+
+            <EditText
+                android:id="@+id/s_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_password"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="4dp" />
+
+            <EditText
+                android:id="@+id/s_cofpass_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+
+                android:hint="@string/prompt_confirm_password"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="8dp" />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/s_is_doc"
+        android:text="I'm a doctor"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/s_qual_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:hint="Highest Qualification"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/s_speciality_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:hint="Speciality"
+        android:inputType="text"
+        android:maxLines="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/s_signup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/myBlue"
+            android:text="@string/button_signup" />
+
+        <Button
+            android:id="@+id/s_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/myBlue"
+            android:text="@string/button_login" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
